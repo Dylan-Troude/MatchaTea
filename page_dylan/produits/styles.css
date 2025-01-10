@@ -9,7 +9,6 @@
     font-family: 'Playwrite', sans-serif;
     background-color: #77BFA3;
 }
-
   
   h1 {
     font-family: 'Playwrite';
@@ -30,7 +29,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #77BFA3;
+    background-color: #DDE7C7;
 }
 
 
@@ -59,6 +58,7 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
+    font-family: 'Playwrite';
 }
 
 nav ul li {
@@ -68,6 +68,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #fff;
+    font-weight: bold;
 }
 
 
@@ -101,7 +102,7 @@ nav ul li a {
 
 /* GRILLE DES PRODUITS */
 .grid_container {
-    background-color: #77BFA3;
+    background-color: #DDE7C7;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 30px; 
@@ -156,3 +157,28 @@ nav ul li a {
 .title_product {
     margin-top: 0;
 }
+
+
+
+
+
+
+
+#barre{
+    background-color: #77BFA3;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    flex-wrap: wrap;
+}
+
+footer img{
+    height: 60px;
+    width: auto;
+}
+
+.centrer {
+    align-items: center;
+}
+
