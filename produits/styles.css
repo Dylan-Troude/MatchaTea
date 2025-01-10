@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'Playwrite';
+    src: url('./font/PlaywriteAUSA-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'Playwrite', sans-serif;
+    background-color: #77BFA3;
+}
+
+  
+  h1 {
+    font-family: 'Playwrite';
+    font-weight: 300;
+  }
+  
+
+  p , h2 ,h3 {
+    font-family: 'Playwrite';
+  }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #77BFA3;
+}
+
+
+
+
+
+
+
+
+
+
+header {
+    background-color: #77BFA3;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* TITRE DE LA PAGE */
+.titleh1 {
+    font-weight: normal;
+    font-size: 30px;
+    color: black;
+    padding: 10px;
+    margin: 20px 0 10px; 
+}
+
+.titleh2{
+    font-weight: bold;
+    font-size: 35px;
+    color: black;
+    padding-left: 50px;
+}
+
+
+
+/* GRILLE DES PRODUITS */
+.grid_container {
+    background-color: #77BFA3;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 30px; 
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+/* Chaque produit individuel */
+.product {
+    background-color: white;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+
+}
+
+/* Style de l'image du produit */
+.grid_item {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.grid_item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Titres et prix */
+.product h3 {
+    margin: 10px 0 5px;
+    font-size: 1.1em;
+    font-weight: normal;
+}
+
+.product p {
+    margin-bottom: 10px;
+    font-size: 1em;
+    color: #333;
+}
+
+.title_product {
+    margin-top: 0;
+}

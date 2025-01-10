@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Playwrite';
+    src: url('./font/PlaywriteAUSA-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Playwrite', sans-serif;
+    background-color: #77BFA3;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #77BFA3;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 40px 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #77BFA3;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    background-color: #77BFA3;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    font-size: 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+form button:hover {
+    background-color: #5fae91;
+}
