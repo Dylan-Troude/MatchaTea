@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Playwrite';
-    src: url("C:/code plex/Playwrite_AU_SA/PlaywriteAUSA-VariableFont_wght.ttf") format('truetype');
+    src: url("../matcha/font/PlaywriteAUSA-VariableFont_wght.ttf") format('truetype');
     font-weight: 100 900;
     font-style: normal;
 }
@@ -48,7 +48,7 @@ nav ul li a {
     margin-right: 0%;
     width: 100%; 
     height: 800px;
-    background-image: url("C:/Users/moham/Downloads/Ajouter un titre (2).png");
+    background-image: url("../matcha/images/Ajouter un titre (2).png");
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -195,7 +195,7 @@ footer img{
     margin-right: 0%;
     width: 100%; 
     height: 800px;
-    background-image: url("C:/Users/moham/Downloads/matcha-recolte.webp");
+    background-image: url("../matcha/images/matcha-recolte.webp");
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -255,5 +255,74 @@ footer img{
 
     .phistory {
         font-size: 0.9em;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner2 {
+        height: 500px;
+    }
+
+    .titleh1 {
+        font-size: 40px;
+    }
+
+    .phistory {
+        font-size: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        line-height: 35px;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner2 {
+        height: 400px;
+        background-position: center center;
+    }
+
+    .titleh1 {
+        font-size: 30px;
+    }
+
+    .phistory {
+        font-size: 18px;
+        margin-left: 20px;
+        margin-right: 20px;
+        line-height: 30px;
+    }
+}
+@media (max-width: 768px) {
+    .banner2 {
+        height: 500px;
+    }
+
+    .titleh1 {
+        font-size: 40px;
+    }
+
+    .phistory {
+        font-size: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        line-height: 35px;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner2 {
+        height: 400px;
+        background-position: center center;
+    }
+
+    .titleh1 {
+        font-size: 30px;
+    }
+
+    .phistory {
+        font-size: 18px;
+        margin-left: 20px;
+        margin-right: 20px;
+        line-height: 30px;
     }
 }
